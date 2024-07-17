@@ -1,0 +1,303 @@
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-section{
+    width: 800px;
+    height: 30px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-section button{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 5px;
+    opacity: 0.8;
+    padding: 5px 10px;
+    cursor: pointer;
+
+}
+
+/* banner section start */
+.banner-section{
+    max-width: 1003px ; 
+    height: 480px;
+    background-image: url(../assets/Hero-bg.png);
+    background-position:center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.banner-section img{
+    width: 200px;
+    height: 200px;
+}
+
+.banner-content{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner-content h1{
+    font-weight: 800;
+    color: #0D1321;
+    padding-top: 10px;
+    line-height: 40px;
+}
+.banner-content p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #0D1321;
+    line-height: 20px;
+    padding-top: 10px;
+}
+.banner-btn{
+    padding: 10px 10px;
+    background: #000;
+    color: #fff;
+    border-radius: 8px;
+    margin: 30px auto;
+    font-weight: 300;
+    border: none;
+    cursor: pointer;
+}
+
+/* Development section start */
+.developer-container{
+    width: 900px;
+    height: 830px;
+    margin: 0px auto;
+    margin-top: 80px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.developer-section-content{
+    width: 90%;
+    height: 90%;
+    margin: 35px auto;
+}
+.developer-container-heding{
+   align-items: center;
+   text-align: center;
+   padding-top: 5px;
+   color:#0D1321;
+}
+.developer-section-heding p{
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+.developer-section-card1{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 30px;
+    gap: 30px;
+    border-radius: 10px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.section-text{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.section-text p{
+    font-size: 12px;
+    line-height: 20px;
+    padding-top: 10px;
+    opacity: 0.7;
+
+
+}
+
+.developer-section-btn{
+    padding: 5px 8px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-top: 30px;
+    cursor:pointer;
+
+}
+.section-img{
+    justify-content: center;
+    display: flex;
+}
+
+
+/* My inspiration section start */
+.my-inspiration-section-container{
+    width: 900px;
+    height: 530px;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.my-inspiration-section-container h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.my-inspiration-section-container p{
+    padding: 20px 40px;
+    line-height: 20px;
+}
+.youtube-vidio{
+    width: 900px;
+    height: 400px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+.youtube-vidio iframe{
+    margin-top: 10px;
+    border-radius: 16px;
+}
+
+
+/* target section start */
+.my-target{
+    width: 900px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.target-heading{
+    align-items: center;
+    text-align: center;
+}
+.target-heading h2{
+    padding-top: 20px;
+}
+.target-heading p{
+    opacity: 0.7;
+    padding: 10px 30px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.target-content{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.target-section{
+    width: 290px;
+    height: 220px;
+    margin-top: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.target-section p{
+    opacity: 0.7;
+    font-size: 12px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.target-section a{
+    color: #000;
+    font-weight: 700;
+}
+.target2{
+    background: rgba(0, 76, 232, 0.05);
+}
+.target3{
+    background: rgba(255, 223, 0, 0.05);
+}
+
+
+/* Support section start */
+
+.help-section{
+    width: 900px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-image:  linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(../assets/handshake.jpg);
+    background-size: cover;
+    background-position:center;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.help-section h1{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+.help-section p{
+    opacity: 0.7;
+    color: #fff;
+    font-size: 13px;
+}
+
+.help-section-input input{
+    margin-top: 30px;
+    padding: 10px 10px ;
+    border-radius: 8px;
+    border: none;
+}
+#search{
+    width: 380px;
+    height: 40px;
+    padding: 10px 0px 10px 20px ;
+}
+#Submit-btn{
+    font-size: 16px;
+    color:#000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* footer section start */
+.footer-container{
+    width: 1003px;
+    height: 50px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-section-content{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+.footer-section-content img{
+        margin-right: 10px;
+        width: 30px;
+        height: 30px;
+}
+.footer-section-content p{
+    font-weight: 700;
+    color: #0D1321;
+}
